@@ -3,7 +3,7 @@ name: "Genshin Impact Helper"
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 22 * * *"
+    - cron: "30 0 * * *"
  
 jobs:
   build:
