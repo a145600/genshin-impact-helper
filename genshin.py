@@ -151,10 +151,10 @@ def makeResult(result:str, data=None):
 
 
 if __name__ == "__main__":
-  seconds = randint(10, 300)
-  logging.info('sleep for %s seconds ...' %(seconds))
+  #seconds = randint(10, 300)
+  #logging.info('sleep for %s seconds ...' %(seconds))
 
-  sleep(seconds)
+  #sleep(seconds)
 
   try:
     jdict = Sign(input().strip()).run()
