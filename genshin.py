@@ -49,6 +49,7 @@ class UID(object):
         'User-Agent': Conf.ua,
         'Referer': ref,
         'Accept-Encoding': 'gzip, deflate, br',
+        'x-rpc-client_type': '5',
         'Cookie': self._cookie
     }
 
