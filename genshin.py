@@ -23,7 +23,7 @@ class ConfMeta(type):
 
   @property
   def app_version(self):
-    return '2.1.0'
+    return '2.2.1'
 
   @property
   def ua(self):
